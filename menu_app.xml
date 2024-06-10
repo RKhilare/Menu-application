@@ -1,0 +1,41 @@
+//This file should always res ->menu(folder) -> resource file
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menuProfile"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/menuSettings"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/menuMore"
+        android:title="More">
+
+        <menu>
+            <item
+                android:id="@+id/menuDevices"
+                android:title="Devices"/>
+
+            <item
+                android:id="@+id/menuLogout"
+                android:title="Logout"/>
+
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menuExit"
+        android:title="Exit"/>
+
+
+
+
+</menu>
